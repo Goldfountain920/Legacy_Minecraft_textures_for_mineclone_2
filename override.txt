@@ -1,4 +1,4 @@
-mcl_core:dirt_with_grass sides mcl_core_grass_block_side_overlay.png^default_grass_side_overlay_humus_below_grass
+mcl_core:dirt_with_grass sides mcl_core_grass_block_side_overlay.png^mcl_dirt_grass_shadow.png
 
 mcl_beacons:beacon_beam all mcl_beacons_beam_base.png
 
@@ -19,6 +19,7 @@ mclx_fences:red_nether_brick_fence inventory,wield mcl_fences_fence_inv_red_neth
 mcl_bamboo:bamboo_fence inventory,wield mcl_fences_fence_inv_bamboo.png
 mcl_bamboo:bamboo_fence top mcl_fences_fence_top_bamboo.png
 mcl_bamboo:bamboo_fence bottom mcl_fences_fence_bottom_bamboo.png
+mcl_cherry_blossom:cherry_fence inventory mcl_fences_fence_inv_cherry.png
 
 mcl_fences:fence_gate inventory,wield mcl_fences_fence_gate_inv_wood.png
 mcl_fences:spruce_fence_gate inventory,wield mcl_fences_fence_gate_inv_spruce.png
@@ -32,10 +33,11 @@ mcl_crimson:warped_fence_gate inventory,wield mcl_fences_fence_gate_inv_warped_h
 mclx_fences:nether_brick_fence_gate inventory,wield mcl_fences_fence_gate_inv_nether_brick.png
 mclx_fences:red_nether_brick_fence_gate inventory,wield mcl_fences_fence_gate_inv_red_nether_brick.png
 mcl_bamboo:bamboo_fence_gate inventory,wield mcl_fences_fence_gate_inv_bamboo.png
+mcl_cherry_blossom:cherry_fence_gate inventory mcl_fences_fence_gate_inv_Cherry.png
 
 mcl_mangrove:mangrove_trapdoor sides doors_side_mangrove_trapdoor.png
-mcl_crimson:crimson_trapdoor sides doors_side_crimson_trapdoor.png
-mcl_crimson:warped_trapdoor sides doors_side_warped_trapdoor.png
+mcl_crimson:crimson_trapdoor sides mcl_crimson_crimson_trapdoor_side.png
+mcl_crimson:warped_trapdoor sides mcl_crimson_warped_trapdoor_side.png
 
 mcl_crimson:nether_sprouts inventory,wield nether_sprouts_inv.png
 
@@ -71,3 +73,6 @@ mcl_signs:standing_sign_sprucewood all mcl_signs_sign_spruce.png
 mcl_signs:standing_sign_crimson_hyphae_wood all mcl_signs_sign_crimson.png
 mcl_signs:standing_sign_warped_hyphae_wood all mcl_signs_sign_warped.png
 mcl_signs:standing_sign_bamboo all mcl_signs_sign_bamboo.png
+
+mcl_core:vine inventory mcl_core_vine_inv.png
+mcl_flowers:waterlily inventory flowers_waterlily_inv.png
